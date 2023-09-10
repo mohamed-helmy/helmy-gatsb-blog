@@ -1,0 +1,10 @@
+.menu {
+  display: flex;
+  svg {
+    height: 26px;
+    width: 26px;
+    stroke-width: 2;
+    color: var(--lg-light-black);
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,15 @@
+@import "../../styles/size";
+
+.footer {
+  height: $footer-height !important;
+  padding-top: 30px;
+  text-align: center;
+  color: var(--lg-dark-gray);
+  a {
+    text-decoration: none;
+    color: var(--lg-light-black);
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

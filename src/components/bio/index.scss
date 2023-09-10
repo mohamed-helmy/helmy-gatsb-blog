@@ -1,0 +1,43 @@
+@import "../../styles/typography";
+@import "../../styles/colors";
+
+.bioContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.bioImage {
+  border-radius: 50%;
+  border: none;
+  z-index: -1;
+}
+
+.bioContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3px;
+  gap: 5px;
+}
+
+.bioLink {
+  @extend .h5;
+  width: auto;
+  padding: 5px;
+  color: var(--lg-darkest-gray);
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--lg-darker-white);
+    color: var(--lg-light-black);
+    border-radius: 5px;
+  }
+}
+
+.bioText {
+  @extend .body-1;
+  margin: 0;
+  padding: 5px;
+  color: var(--lg-dark-gray);
+}

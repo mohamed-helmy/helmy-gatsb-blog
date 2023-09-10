@@ -1,0 +1,33 @@
+.contentItem {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 8px 10px;
+  border-radius: 8px;
+  &:hover {
+    background-color: var(--lg-darker-white);
+  }
+}
+
+.itemTitle {
+  margin: 0;
+  color: var(--lg-light-black);
+}
+
+.itemSubTitle {
+  color: var(--lg-light-black);
+}
+
+.itemText {
+  line-height: 1.3rem;
+  height: 100%;
+  overflow: hidden;
+  color: var(--lg-darkest-gray);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.itemDate {
+  color: var(--lg-darker-gray);
+}
